@@ -24,5 +24,6 @@ Used for development and building:
 - @types/react-dom
 - @types/node
 - oxlint
+- @playwright/test
 
 Note: this is a Node.js project, so "pip install -r requirements.txt" does not apply.
