@@ -1,0 +1,28 @@
+PrimaryPath requirements
+
+System requirements
+- Node.js 20.19 or newer in the 20 line, or 22.12 or newer (https://nodejs.org)
+- npm (included with Node.js)
+- A modern browser such as Chrome, Edge or Firefox
+- An internet connection, for the install step and for the web fonts
+
+Project packages
+Do not install these one by one. "npm install" reads them from package.json
+and installs the exact versions recorded in package-lock.json.
+
+Used by the app:
+- react
+- react-dom
+- react-router-dom
+- lucide-react
+
+Used for development and building:
+- vite
+- @vitejs/plugin-react
+- typescript
+- @types/react
+- @types/react-dom
+- @types/node
+- oxlint
+
+Note: this is a Node.js project, so "pip install -r requirements.txt" does not apply.

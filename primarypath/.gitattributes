@@ -1,0 +1,17 @@
+# Keep line endings consistent across Windows, macOS and Linux
+* text=auto eol=lf
+
+# Windows scripts need Windows line endings
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
